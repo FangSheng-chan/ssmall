@@ -16,6 +16,8 @@
         <module>ssmall-order</module>
         <module>ssmall-product</module>
         <module>ssmall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
     </modules>
 
 </project>
