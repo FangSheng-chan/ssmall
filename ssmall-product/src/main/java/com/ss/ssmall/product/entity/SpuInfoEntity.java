@@ -13,7 +13,7 @@ import lombok.Data;
  * 
  * @author fangsheng
  * @email 445317262@qq.com
- * @date 2020-09-02 16:06:51
+ * @date 2020-09-02 23:29:42
  */
 @Data
 @TableName("pms_spu_info")
@@ -21,40 +21,40 @@ public class SpuInfoEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * $column.comments
+	 * 商品id
 	 */
 	@TableId
 	private Long id;
 	/**
-	 * $column.comments
+	 * 商品名称
 	 */
 	private String spuName;
 	/**
-	 * $column.comments
+	 * 商品描述
 	 */
 	private String spuDescription;
 	/**
-	 * $column.comments
+	 * 所属分类id
 	 */
 	private Long catalogId;
 	/**
-	 * $column.comments
+	 * 品牌id
 	 */
 	private Long brandId;
 	/**
-	 * $column.comments
+	 * 
 	 */
 	private BigDecimal weight;
 	/**
-	 * $column.comments
+	 * 上架状态[0 - 下架，1 - 上架]
 	 */
 	private Integer publishStatus;
 	/**
-	 * $column.comments
+	 * 
 	 */
 	private Date createTime;
 	/**
-	 * $column.comments
+	 * 
 	 */
 	private Date updateTime;
 

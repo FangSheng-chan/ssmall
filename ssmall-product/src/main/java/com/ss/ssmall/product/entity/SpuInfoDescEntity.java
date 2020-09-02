@@ -12,7 +12,7 @@ import lombok.Data;
  * 
  * @author fangsheng
  * @email 445317262@qq.com
- * @date 2020-09-02 16:06:51
+ * @date 2020-09-02 23:29:42
  */
 @Data
 @TableName("pms_spu_info_desc")
@@ -20,12 +20,12 @@ public class SpuInfoDescEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * $column.comments
+	 * 商品id
 	 */
 	@TableId
 	private Long spuId;
 	/**
-	 * $column.comments
+	 * 商品介绍
 	 */
 	private String decript;
 
