@@ -3,6 +3,8 @@ package com.ss.ssmall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.ss.common.utils.PageUtils;
+import com.ss.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,8 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ss.ssmall.product.entity.AttrEntity;
 import com.ss.ssmall.product.service.AttrService;
-import com.ss.common.utils.PageUtils;
-import com.ss.common.utils.R;
+
 
 
 
