@@ -9,6 +9,7 @@ class SsmallCouponApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
